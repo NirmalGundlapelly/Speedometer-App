@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.bgContainer {
+  background-color: #07080c;
+  font-family: 'Roboto';
+  height: 100vh;
+}
+.heading {
+  color: #ffffff;
+  font-style: italic;
+  font-size: 60px;
+}
+.image {
+  width: 55%;
+  display: flex;
+  align-self: center;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h2Heading {
+  color: #ffffff;
+  font-size: 40px;
+}
+.limitRange {
+  color: #cbd5e1;
+}
+.accButton {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  margin-right: 20px;
+}
+.breakButton {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: #94a3b8 1px solid;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  margin-right: 20px;
+}
+.buttonsContainer {
+  margin-top: 20px;
+}
